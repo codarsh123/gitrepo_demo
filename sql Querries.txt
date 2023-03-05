@@ -1,0 +1,52 @@
+create DATABASE HDFC_db;
+
+use DATABASE HDFC_db;
+
+SHOW DATABASE;
+
+create TABLE employee;
+
+Show TABLE;
+
+DESC employee;
+
+insert INTO employee(eid,ename) VALUES(106,"harry");
+
+insert INTO employee VALUES(107,'harry',5000.0,'2022-01-16');
+
+update employee SET doj='2022-03-01' , salary=2000.0 WHERE eid =106;
+
+delete FROM employee where eid=107;
+
+SELECT * FROM employee;
+
+1
+101
+king
+20000
+2022-01-19
+2
+102
+adam
+30000
+2022-01-19
+3
+103
+ron
+20000
+2022-01-19
+4
+104
+jeff
+2500
+2022-01-19
+5
+105
+ben
+45000
+2022-01-19
+6
+106
+harry
+5000
+2022-01-16
